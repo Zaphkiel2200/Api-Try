@@ -48,3 +48,6 @@ document.getElementById('favoritos')?.addEventListener('click', () => {
     renderAnimes(SST.favoritos);
   }
 });
+
+
+121212
