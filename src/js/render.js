@@ -22,7 +22,7 @@ export function renderAnimes(lista = SST.animes) {
       <h3>${anime.title}</h3>
       <p>⭐ ${anime.score || 'N/A'}</p>
       <button class="fav-btn" data-id="${anime.mal_id}">❤️ Favorito</button>
-      <a href="${anime.url}" target="_blank">Ver más</a>
+      <a href="${anime.url}" target="_blank">Más</a>
     `;
     container.appendChild(card);
   });
